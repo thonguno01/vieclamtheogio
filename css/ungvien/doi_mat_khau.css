@@ -1,0 +1,108 @@
+.n_dmk_container{
+    width: calc(100% - 320px);
+    padding-top: 16px;
+}
+.n_dmk_sub_container{
+    max-width: 658px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.n_dmk_btn{
+    width: 149px;
+    height: 41px;
+    border: none;
+    background: #2758DD;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
+.n_dmk_form{
+    width: 100%;
+}
+.n_dmk_row{
+    display: flex; align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.n_dkm_input{
+    height: 47px;
+    border: 1px solid #BBBBB6;
+    border-radius: 4px;
+    flex: 1;
+    background: url(/images/n_icon_lock.svg) no-repeat;
+    background-position: 14px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+.n_show_pwd{
+    border: none; background: transparent;
+    position: absolute;
+    right: 23px; top: 12px;
+}
+.n_dmk_label{
+    font-size: 18px;
+    color: #1C1D20;
+    flex: 0.5;
+}
+.n_red_star{
+    font-size: inherit;
+    color: red;
+}
+.n_text_force{
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+    width: 135%;
+    max-width: calc(100vw - 320px);
+    padding-right: 5px;
+}
+.n_error{
+    height: 24px;
+    color: #FF3C00;
+    font-size: 12px;
+    text-align: right;
+}
+@media only screen and (max-width: 1100px){
+    .n_dmk_container{
+        width: calc(100% - 85px);
+    }
+    .n_text_force{
+        max-width: calc(100vw - 85px);
+    }
+}
+@media only screen and (max-width: 768px){
+    .n_text_force{
+        max-width: unset;
+        width: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .n_dmk_container{
+        width: 100%;
+    }
+    .n_dmk_row {
+        flex-direction: column;
+    }
+    .n_dkm_input{
+        flex: unset;
+        width: 100%;
+    }
+    .n_dmk_label{
+        flex: unset;
+        margin-bottom: 11px;
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+    }
+    .n_dmk_sub_container {
+        padding: 0 16px;
+    }
+    .n_show_pwd{
+        top: 45px;
+    }
+}

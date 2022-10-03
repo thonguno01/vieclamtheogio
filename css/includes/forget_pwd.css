@@ -1,0 +1,101 @@
+.sendmail_pass {
+    display: flex;
+}
+
+.img_change_pass{
+    width: 50%;
+}
+
+.box_send_pass  {
+    width: 50%;
+}
+
+.n_pass_eror{
+    height: 30px;
+    color: #FF3C00;
+    font-size: 12px;
+}
+
+.input_email{
+    position: relative;
+}
+
+img.key_icon {
+    position: absolute;
+    top: 27px;
+    left: 10px;
+}
+
+.box_inside_send_pass {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgb(39 88 221 / 30%);
+    border-radius: 30px;
+    padding: 60px 50px;
+}
+
+/* ::placeholder {
+    color: #fff;
+  } */
+
+.form-control, .form-control:focus{
+    background: #90A7E4;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.send_pass_title_text{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2758DD;
+    font-style: normal;
+}
+
+.btn_save_change {
+    background: #2758DD;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .box_inside_send_pass {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .box_inside_send_pass {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width:1440px) and (min-width:1024px) {
+    .box_inside_send_pass {
+        width: 70%;
+    }
+}
+
+@media screen and  (max-width:600px){
+    .img_change_pass{
+        display: none;
+    }
+    .box_send_pass {
+        width: 100%;
+        background: url(/images/n_dky_ntd.svg) no-repeat;
+        
+    }
+
+    .box_inside_send_pass {
+        margin-top: 89px;
+        margin-bottom: 88px;
+        opacity: 90%;
+    }
+}
+    

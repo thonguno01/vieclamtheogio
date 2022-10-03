@@ -1,0 +1,13 @@
+.search_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search_form {
+    margin-right: 50px;
+}
+
+.search_box {
+    line-height: 30px;
+    border: 1px solid;
+}

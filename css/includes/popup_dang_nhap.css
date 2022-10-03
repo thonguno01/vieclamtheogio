@@ -1,0 +1,229 @@
+.background_login {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('/images/back_ground_ntd.png'); */
+    padding: 111px 0px;
+    background: #00000033;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow-y: auto;
+}
+.background_login::-webkit-scrollbar{
+    width: 5px;
+}
+
+.background-nav {
+    max-width: 840px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+ img.btn_x {
+    background: #fff;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    padding: 2px;
+}
+/*
+img.line_x {
+    position: absolute;
+    right: 0;
+    top: -140px;
+} */
+
+.button_close_popup_dn{
+    position: absolute;
+    top: -30px;
+    right: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_login {
+    position: absolute;
+    left: 65%;
+    top: 95px;
+    right: 30px;
+}
+
+.text_1 {
+    color: #2758DD;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.inp_login input {
+    width: 100%;
+    height: 42px;
+    background: none;
+    border-radius: 20px;
+    border: none;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.inp_login {
+    background: #90A7E4;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.inp_login input::placeholder {
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.inp_email {
+    margin-top: 15px;
+}
+
+img.icon_email {
+    height: 19px;
+    width: auto;
+}
+
+.icon_pass {
+    height: 14px;
+    width: auto;
+}
+
+img.icon_see_pass {
+    height: 10px;
+    width: auto;
+}
+
+.text_3 {
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn_login {
+    background: #2758DD;
+    color: #FFF;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    height: 15px;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 15px;
+}
+
+.sign_up_now{
+    color: #2758DD;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.no_acc{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .background_login {
+        padding: 90px 0;
+        background-size: 103% 100%;
+    }
+    .text_1 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+   
+    .form_login {
+        top: 76px;
+        right: 35px;
+    }
+    .inp_login {
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+    .inp_login input {
+        padding: 0px 5px;
+        font-size: 16px;
+    }
+    .inp_login input::placeholder {
+        font-size: 13px;
+    }
+   
+}
+
+@media screen and (max-width: 880px) {
+    .background-nav {
+        width: auto;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background_login {
+        padding: 60px 0;
+        background-size: 103% 100%;
+    }
+    .background-nav {
+        width: auto;
+        margin: 0 24px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+}
+
+    
+
+@media screen and (max-width: 760px) {
+    .button_close_popup_dn {
+        top: 15px;
+        right: 40px;
+    }
+    .background_login {
+        padding: 60px 0;
+        background-size: 103% 100%;
+    }
+    .background-nav {
+        width: auto;
+        margin: 0 24px;
+    }
+    .img_background {
+        display: none;
+    }
+    .background-nav {
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        position: unset;
+    }
+    .form_login {
+        position: unset;
+        padding: 45px;
+    }
+
+    /* img.line_x {
+        top: -90px;
+    }
+
+    img.btn_x {
+        top: -110px;
+    } */
+}

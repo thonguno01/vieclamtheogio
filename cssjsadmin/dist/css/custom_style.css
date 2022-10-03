@@ -1,0 +1,188 @@
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    border-color: #d2d6de;
+    height: 34px;
+    border-radius: 0px;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    padding:0px;
+}
+.select2-container--default .select2-selection--multiple{
+    border-radius: 0px;
+    border-color: #d2d6de !important;
+}
+.select2-container{height: 34px;}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background: #62c6d696;
+    border: 0;
+    padding: 3px 15px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover, .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    height: 100%;
+    border-right: 0px !important;
+    margin-right: 5px;
+}
+
+.h_chon_ngay_uv {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 0px;
+}
+
+.h_chon_ngay_uv input {
+    width: 13.2%;
+    position: relative;
+    height: 35px;
+    /* margin: 4px; */
+    border: none;
+    background: #fff;
+}
+[type=reset], [type=submit], .loginAdminUser, html [type=button] {
+    -webkit-appearance: button;
+    margin: 0 2px;
+
+}
+
+.option_item .option_inner {
+    background: #FAFAFA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #646464;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+}
+.container .option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+.container_h .option_item {
+    display: block;
+    position: relative;
+    width: 13.2%;
+    height: 35px;
+    margin: 4px;
+    float: left;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.option_item .checkbox:checked~.option_inner.instagram {
+    background: #FCA927;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+    display: block;
+    position: relative;
+    color: #FFFFFF;
+    border-radius: 8px;
+    line-height: 35px;
+}
+.container_h{width:100%;}
+.password{position: relative;}
+.password .icons{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+.error,.time_teaching {
+    color: red;
+}
+/*------thêm mới tags---*/
+#add_tags{
+    width: 60%;
+}
+#add_tags.form-gsDistrict{width:100%;}
+#add_tags .noti{
+    display: block;
+    text-align: center;
+}
+#add_tags .row_tag{
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+    padding-top: 15px;
+    position: relative;
+}
+#add_tags .row_tag label.error{
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+#add_tags .row_tag.row_gsDistrict {
+    width: 50%;
+    float: unset;
+}
+#add_tags .row_tag:last-child {
+    text-align: right;
+}
+#add_tags .row_tag .label_tit{
+    width: 30%;
+    float: left;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 30px;
+}
+#add_tags .row_tag .label_tit.title {
+    text-align: left;
+}
+#add_tags .row_tag label[for='suggest_title'] {
+    width: 20%;
+}
+#add_tags .row_tag label[for='content'],
+#add_tags .row_tag label[for='suggest_content']{
+    width: 100%;
+}
+#add_tags .row_tag .label_tit span{
+    color: red;
+}
+#add_tags .row_tag input[type = 'text'],#add_tags .row_tag select{
+    width: 70%;
+    border: 1px solid #d2d6de;
+    height: 34px;
+}
+#add_tags .row_tag input[type = 'password'], #add_tags .row_tag input[type = 'email'] {
+    width: 70%;
+    border: 1px solid #d2d6de;
+    height: 34px;
+}
+#add_tags .row_tag textarea{
+    width: 100%;
+    border: 1px solid #d2d6de;
+}
+#add_tags .select2-container {
+    width: 70% !important;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container_h .option_item {
+        width: 13%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container_h .option_item,.h_chon_ngay_uv input {
+        width: 12%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .wrapper-tt .container_h{padding: 0px;}
+    .container_h .option_item{width: 11.8%}
+    .lichday.form-group{padding: 0px !important;}
+    .name {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container_h{padding: 0px;}
+    .h_chon_ngay_uv input{width: 11.5%}
+    .container_h .option_item{width: 11%}
+}

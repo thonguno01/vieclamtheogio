@@ -1,0 +1,105 @@
+.n_ttcb_sub_content{
+    max-width: 915px;
+    width: 100%;
+}
+.n_ttcb_row{
+    display: flex;
+    width: 100%;
+}
+.n_ttcb_input{
+    height: 41px; width: 100%;
+    border: 1px solid #BBBBBC;
+    border-radius: 5px;
+    padding-left: 19px;
+}
+.n_ttcb_row_left, .n_ttcb_row_right{
+    margin: 0 16px;
+    flex: 1;
+    position: relative;
+}
+
+input[type=radio]{
+    height: 21px; width: 21px;
+    margin-right: 11px;
+}
+
+.n_ttcb_input_radio{
+    display: flex;
+    margin-right: 28px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.n_kh{
+    margin-right: 0px;
+}
+.n_ttcb_avatar {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.n_ttcb_avatar_up {
+    background: #2758DD;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n_ttcb_avatar_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#preview_logo{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 1130px) {
+    .n_ttcb_cb{
+        flex-direction: column-reverse;
+    }
+    .n_ttcb_radio{
+        flex: 1;
+        margin: 0 16px;
+    }
+    .n_ttcb_cb .n_ttcb_row{
+        margin: 0;
+    }
+    .n_ttcb_cb .n_ttcb_row_right{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 500px) {
+    .n_ttcb_row {
+        flex-direction: column;
+    }
+    .n_ttcb_radio .n_ttcb_row {
+        flex-direction: unset;
+    }
+    .n_ttcb_avatar_up {
+        height: 24px;
+        width: 24px;
+    }
+    .n_ttcb_avatar_up img {
+        height: 18px;
+        width: 18px;
+    }
+    .n_ttcb_avatar {
+        height: 74px;
+        width: 74px;
+        margin-bottom: 24px;
+    }
+    .n_ttcb_cb .n_ttcb_row_right{
+        width: unset;
+    }
+}
+/* hết tràn nhưng chỗ input radio lấn chỗ input khác */

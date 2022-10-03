@@ -1,0 +1,28 @@
+.n_ttcb_sub_content{
+    width: 100%;
+    max-width: 905px;
+}
+.n_gtc_text{
+    border: 1px solid #BBBBBC;
+    border-radius: 5px;
+    width: calc(100% - 32px);
+    height: 321px;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 34px;
+    padding-top: 17px;
+}
+.n_ttcb_update{
+    margin-top: 32px;
+}
+/* @media only screen and (max-width: 957px) {
+    .n_ttcb_sub_content{
+        width: calc(100% - 32px);
+    }
+    .n_gtc_text{
+        width: 100%;
+    }
+    .n_ttcb_update{
+        margin-top: 20px;
+    }
+} */

@@ -1,0 +1,197 @@
+.content_thong_tin_co_ban {
+    background: #FFFFFF;
+    width: calc(100% - 307px);
+    padding-top: 38px;
+}
+
+.thong_tin_co_ban_title_text {
+    color: #2758DD;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #FFFF00 25%, #2758DD 75%) 1;
+}
+
+.head_cover_img {
+    position: relative;
+    height: fit-content;
+    background-size: 100% 100%;
+    border: 10px solid #FFF;
+    width: fit-content;
+    margin: auto;
+    height: 278px;
+    width: 100%;
+}
+
+.head_cover_img img {
+    width: 100%;
+}
+
+.preview_up1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(102, 102, 102, 0.7);
+    position: absolute;
+    top: 0;
+}
+
+#limit_size_img {
+    position: absolute;
+    top: 0;
+    right: 6px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.preview_up img {
+    width: 100%;
+    height: 100%;
+}
+
+.preview_up1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.preview_up {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upload_photo {
+    position: absolute;
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.avatar_ntd {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.upload_avatar {
+    background: #2758DD;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 70%;
+    top: 60%;
+}
+
+.ptlh_form,
+.dcct_form {
+    padding-left: 10px;
+}
+
+.thong_tin_info {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.ptlh {
+    display: flex;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 41px;
+}
+
+span.select2-selection.select2-selection--single {
+    height: 47px;
+    padding-top: 9px;
+}
+
+input.form-control {
+    height: 47px;
+}
+
+label.form-label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Roboto-medium;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.note {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.btn_update_thong_tin {
+    background: #2758DD;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.n_dky_ntd_eror {
+    color: red;
+    height: 24px;
+    font-size: 12px;
+}
+
+.n_red_star {
+    color: red;
+    font-size: inherit;
+}
+
+.input_group_box {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.ptlh .col-sm-6:nth-child(1) {
+    padding-right: 15px;
+}
+
+.ptlh .col-sm-6:nth-child(2) {
+    padding-left: 15px;
+}
+
+@media screen and (max-width:1100px) {
+    .content_thong_tin_co_ban {
+        width: calc(100% - 85px);
+    }
+    .col-sm-6:not(:nth-last-of-type(2)) {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .form_thong_tin_co_ban {
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content_thong_tin_co_ban {
+        margin-left: 20px;
+    }
+    label.form-label {
+        font-size: 14px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        white-space: nowrap;
+    }
+    .ptlh .col-sm-6:nth-child(2),
+    .ptlh .col-sm-6:nth-child(1) {
+        padding: 0;
+    }
+}

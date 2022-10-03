@@ -1,0 +1,104 @@
+.content_forgot_pass {
+    background: #FFFFFF;
+    margin-bottom: 48px;
+    width: calc(100% - 307px);
+    padding-top: 38px;
+}
+
+.pass_eror{
+    height: 30px;
+    color: #FF3C00;
+    font-size: 12px;
+    
+    padding-left: 178px;
+
+}
+
+.n_red_star{
+    color: red;
+    font-size: inherit;
+}
+
+.pass_eror_info {
+    width: 100%;
+    display: flex;
+}
+
+.form_forgot_pass{
+    width: fit-content;
+}
+
+.form-label{
+    white-space: nowrap;
+    padding-right: 37px;
+}
+
+.rep_pass {
+    padding-right: 30px;
+}
+
+.sm-3{
+    position: relative;
+}
+.n_show_pwd{
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    background: transparent;
+    border: none;
+}
+
+.btn_change_pass {
+    background: #2758DD;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #FFF;
+    border: none;
+    margin-bottom: 48px;
+}
+
+.n_text_force{
+    font-style: italic;
+    font-size: 12px;
+    color: #1C1D20;
+    float: right;
+    right: 0;
+}
+
+.new_pass{
+    padding-right:60px;
+}
+
+@media screen and (max-width:1100px) {
+    .content_forgot_pass{
+        width: calc(100% - 85px);
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .content_forgot_pass{
+        margin-left: 40px;
+    }
+
+    .pass_eror_info{
+        display: grid;
+    }
+
+    .new_pass{
+        padding-right:0px;
+    }
+    
+    .n_show_pwd{
+        position: absolute;
+        right: 12px;
+        top: 39px;
+        background: transparent;
+        border: none;
+    }
+
+    .pass_eror{
+        padding-left: 0px;
+    
+    }
+}

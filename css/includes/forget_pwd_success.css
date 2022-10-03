@@ -1,0 +1,64 @@
+img#success_pass{
+    width: 75%;
+}
+
+
+.success_box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.3);
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 36%;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn_home{
+    margin-top: 15px;
+    border-radius:50px;
+}
+
+.success_title{
+    color:#2758DD; 
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 170%;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:600px) {
+    .success_box{
+        width: 95%;
+        margin-left: 10px;
+    } 
+
+    .success_title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .success_box{
+        width: 62%;
+        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .success_title{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width : 1024px) {
+    .success_box{
+        width: 46%;
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

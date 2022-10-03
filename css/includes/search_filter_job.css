@@ -1,0 +1,279 @@
+.n_filter_btn {
+    height: 48px;
+    width: 99px;
+    background: #FFFFFF;
+    border: 1px solid rgba(39, 88, 221, 0.35);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.12);
+    border-radius: 30px;
+    display: none;
+    color: rgba(102, 102, 102, 1);
+    font-size: 14px;
+}
+
+.n_filter_btn:hover,
+.n_filter_btn:focus-visible {
+    background: rgba(232, 238, 255, 1);
+    border: 1px solid rgba(39, 88, 221, 0.35);
+}
+
+.n_title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+.n_body_search_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    z-index: 0;
+}
+
+.n_filter_options {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    width: 100%;
+    max-width: 1130px;
+}
+
+.n_filter_option {
+    padding: 0 2px;
+    margin: auto;
+}
+
+.n_filter_option_label {
+    font-size: 13.5px;
+    font-weight: 500;
+}
+
+.n_filter_option_select,
+.n_filter_option .select2-container {
+    height: 44px;
+    border: 1.5px solid rgba(39, 88, 221, 0.35);
+    border-radius: 5px;
+    min-width: 135px;
+    max-width: 160px;
+}
+
+.n_filter_option .select2-container .select2-selection--single .select2-selection__rendered {
+    height: 44px;
+    line-height: 44px;
+    padding-left: 5px;
+}
+
+.n_modal_filter_mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .n_title {
+        font-size: 24px;
+    }
+    .n_body_search_2 {
+        padding-top: 62px;
+    }
+    .n_filter_option_label {
+        font-size: 12px;
+    }
+    .n_filter_option_select,
+    .n_filter_option .select2-container {
+        height: 37.57px;
+        max-width: 140px;
+    }
+    .n_filter_option .select2-container .select2-selection--single .select2-selection__rendered {
+        height: 37.57px;
+        line-height: 37.57px;
+    }
+    .n_filter_options {
+        /* flex-wrap: wrap; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .n_filter_btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .n_body_search_2 {
+        position: relative;
+    }
+    .n_filter_options {
+        /* height: 174px; */
+        width: calc(100% - 40px);
+        margin: 0 23px;
+        padding: 13px 40px;
+        background: rgba(232, 238, 255, 1);
+        border-radius: 20px;
+        border: 1px solid rgba(39, 88, 221, 0.35);
+        justify-content: space-between;
+        position: absolute;
+        top: 45px;
+    }
+    .n_filter_options_after {
+        background: rgba(39, 88, 221, 0.35);
+        height: 20px;
+        width: 20px;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+        position: absolute;
+        top: 26px;
+        right: 8vw;
+        z-index: 1;
+        display: flex;
+        align-items: flex-end;
+    }
+    .n_filter_options_before {
+        background: rgba(232, 238, 255, 1);
+        height: 17.5px;
+        width: 19px;
+        clip-path: polygon(100% 0, 8% 100%, 100% 100%);
+    }
+    .n_filter_option_label {
+        font-size: 13px;
+        margin-bottom: 9px;
+        line-height: 16px;
+    }
+    .n_filter_option {
+        margin-bottom: 9px;
+    }
+    .n_filter_option_select,
+    .n_filter_option .select2-container {
+        height: 40px;
+        background: white;
+    }
+    .n_filter_option .select2-container .select2-selection--single .select2-selection__rendered {
+        height: 40px;
+        line-height: 40px;
+    }
+    .n_filter_opt {
+        display: none;
+    }
+    .n_flex {
+        display: grid;
+    }
+    .n_search {
+        width: calc(100% - 75px);
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    /* .n_findkey_contain{
+        width: calc(50% - 22px);
+    }
+    .select2-container{
+        width: calc(31% - 22px) !important;
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    .n_title {
+        font-size: 18px;
+    }
+    .n_body_search_2 {
+        padding-top: 50px;
+    }
+    .n_filter_btn {
+        height: 36px;
+        width: calc(38% - 24.5px);
+        box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.12);
+        border-radius: 10px;
+        position: absolute;
+        bottom: 0;
+        right: 35px;
+    }
+    .n_filter_opt {
+        display: none;
+    }
+    .n_modal_filter_mobile {
+        display: none;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding-top: 40px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 2;
+        height: 100vh;
+        overflow: auto;
+    }
+    .n_modal_filter_header {
+        background: rgba(216, 216, 216, 1);
+        height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0 14px;
+    }
+    .n_modal_filter_header .text {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 0;
+        flex: 1;
+    }
+    .n_close_filter {
+        background-color: transparent;
+        border: none;
+    }
+    .n_modal_filter_body {
+        background-color: white;
+    }
+    .n_modal_filter {
+        padding: 13px 14px 23px 16px;
+    }
+    .n_filter_option_div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    .n_modal_filter .text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        margin-bottom: 13px;
+    }
+    .n_modal_filter {
+        border-top: 2px solid rgba(216, 216, 216, 1);
+    }
+    .n_option {
+        background-color: #f4f4f4;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        padding: 4% 0;
+        height: 34px;
+        border-radius: 5px;
+    }
+    .n_filter_option_div .n_option:hover,
+    .n_option_select {
+        background-color: rgba(216, 216, 216, 1);
+    }
+    .n_modal_filter_footer {
+        padding: 9px 16px 13px 14px;
+        background-color: white;
+        text-align: end;
+    }
+    .n_del_filter,
+    .n_filter {
+        height: 36px;
+        width: 116px;
+        border: 2px solid rgba(39, 88, 221, 1);
+    }
+    .n_del_filter {
+        color: rgba(39, 88, 221, 1);
+        background: transparent;
+    }
+    .n_filter {
+        color: white;
+        background-color: rgba(39, 88, 221, 1);
+    }
+    .show {
+        display: block;
+    }
+    .n_search {
+        width: 100%;
+    }
+}

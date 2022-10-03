@@ -1,0 +1,114 @@
+.email_pass_box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.3);
+    border-radius: 30px;
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 180px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.rep_confirm {
+    white-space: nowrap;
+    /* border-bottom: 1px solid #2758DD; */
+    display: block;
+}
+
+.title {
+    color: #2758DD;
+    font-weight: bold;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+#noti_xacthuc {
+    background: url(/images/Union.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 30px;
+    color: #fff;
+    float: right;
+    margin-top: 0px;
+    display: none;
+}
+
+button#time_countdown {
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:600px) {
+    .col-sm-6 {
+        flex: none;
+        max-width: 100%;
+    }
+    .img_bg_left {
+        display: none;
+    }
+    .email_pass_box {
+        width: 95%;
+        margin-top: 60px;
+        margin-left: 10px;
+        padding: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 60px;
+    }
+    #noti_xacthuc {
+        margin-top: 5px;
+    }
+    .img_bg_respon {
+        background: url(/images/n_dky_uv.svg);
+        opacity: 90%;
+    }
+}
+
+
+/* @media screen and (min-width: 600px){
+    .email_pass_box{
+        width: 160%;
+        margin-left: 84px;
+        height: 80%;
+    }
+    #noti_xacthuc{
+        width: 75%;
+    }
+} */
+
+@media screen and (min-width: 601px) {
+    .email_pass_box {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .noti_xacthuc {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .email_pass_box {
+        width: 80%;
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .noti_xacthuc {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:1306px) {
+    .email_pass_box {
+        width: 55%;
+        margin-left: 155px;
+        margin-top: 120px;
+    }
+    .noti_xacthuc {
+        margin-top: 20px;
+    }
+}

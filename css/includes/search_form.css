@@ -1,0 +1,148 @@
+.n_sub_body_search{ 
+    position: unset;
+    margin: auto;
+    margin-top: -105px;
+    max-width: 785px;
+}
+.n_search {
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 12%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.n_search {
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+.n_search span.select2-selection.select2-selection--single {
+    border: none;
+    background: url(/images/vieclam.svg) no-repeat;
+    background-position: left 13px;
+    padding-left: 15px;
+}
+.search_input{
+    width: 75%;
+}
+.search_input {
+    width: 60%;
+    border:none;
+    border-right: 2px solid #2758DD;
+}
+input.n_key {
+    border: none;
+    width: calc(100% - 30px);
+}
+span#select2-n_city_uv-container ::before {
+    vertical-align: sub;
+    padding-right: 8px;
+}
+select#n_city_uv {
+    width: 30%;
+    border:none;
+}
+.n_tim_kiem{
+    width: 105px;
+    height: 40px;
+    left: 626px;
+    top: 126px;  
+    background: #2758DD;
+    border-radius: 8px;
+    color:#fff;
+    border:none;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 44px;
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1.5px solid rgba(39, 88, 221, 0.35);
+    border-radius: 4px;
+    height: 44px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    height: 0;
+    left: 10px;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 89%;
+    width: 0;
+}
+.button_menu_job {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .n_sub_body_search{
+        margin-top: -210px;
+    }
+    button.btn.btn-outline-info.button_menu_job {
+        font-size: 12px;
+        line-height: 28px;
+        position: absolute;
+        margin: 0;
+        right: 15px;
+        top: -26px;
+    }
+    .n_search {
+        height: unset;
+        align-items: unset;
+        flex-direction: column;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+    }
+    .n_search span.select2.select2-container.select2-container--default {
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        padding-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .search_input {
+        /* width: 50%; */
+        border: none;
+        border-right: 2px solid #2758DD;
+        background: white;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+    }
+    .search_input {
+        width: 100%;
+        padding-top: 11px;
+        padding-left: 25px;
+    }
+    .n_tim_kiem{
+        width: calc(75% - 20px);
+    }
+    .button_menu_job {
+        margin-left: 228px;
+        margin-top: -185px;
+        width: 25%;
+        border-radius: 50px;
+        display: inline;
+        color:black;
+        background-color: white;
+    }
+    .menu_job {
+        display: none;
+    }
+}
+
+@media screen and (max-width :320px){
+    .button_menu_job{
+        margin-left: 180px;
+    }
+}

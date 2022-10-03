@@ -1,0 +1,111 @@
+.content_uvut {
+    background: #FFFFFF;
+    width: calc(100% - 307px);
+    padding-top: 38px;
+}
+
+.info_uvut_title_text {
+    color: #2758DD;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #FFFF00 25%, #2758DD 75%) 1;
+}
+
+.head_btn {
+    display: flex;
+}
+
+.excel {
+    padding-right: 10px;
+}
+
+#n_uvut {
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    padding-left: 17px;
+}
+
+.btn_excel {
+    background: #FFAE28;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 5px 30px;
+}
+
+.th_uvut_header {
+    background: #2758DD;
+    border-right: 5px solid #fff;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: middle !important;
+    line-height: 16.75px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tbd_old_post {
+    background: #F4F4F4;
+    border-right: 5px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 15px;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tbd_old_post_option {
+    border-top: none !important;
+    justify-content: space-between;
+}
+
+#status_cv {
+    background: #F4F4F4;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+
+.danh_sach_uvut_table {
+    overflow: auto;
+}
+
+.danh_sach_uvut_table::-webkit-scrollbar {
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+@media (min-width: 1520px) {
+    .container {
+        max-width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .container {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .total_qlc {
+        justify-content: flex-end;
+    }
+    .content_uvut {
+        width: calc(100% - 85px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content_uvut {
+        width: 100%;
+    }
+}

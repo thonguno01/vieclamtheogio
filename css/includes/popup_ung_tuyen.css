@@ -1,0 +1,129 @@
+.popup_ung_tuyen_bg{
+    width: 100%;
+    height: 100%;
+    background: #00000033;   
+    padding: 111px 0px;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow-y: auto;
+}
+.popup_ung_tuyen_bg::-webkit-scrollbar{
+    width: 5px;
+}
+
+.popup_ung_tuyen_box{
+    border-radius: 50px;
+    max-width: 766px;
+    /* max-height: 363px;; */
+    margin: auto;
+    background: #fff;
+    position: relative;
+}
+
+img.btn_x {
+    background: #fff;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    padding: 2px;
+}
+
+
+.button_close_popup_ut{
+    position: absolute;
+    top: -50px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup_ca_lam{
+    padding: 30px;
+}
+
+.popup_ut_title{
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #2758DD;
+    border-radius: 50px 50px 0px 0px;
+    line-height: 60px;
+}
+.popup_ca_lam_text{
+    font-size: 16px;
+}
+.note_ntd_text,.n_text_label{
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    line-height: 149%;
+    color: #1C1D20;
+}
+
+.calam_span{
+    font-size: 16px;
+    color: #FFB843;
+}
+
+.n_detail_ca_lam {
+    display: flex;
+}
+
+.n_dow{
+    flex: 1;
+    text-align: center;
+}
+.n_ndow{
+    line-height: 47px;
+    background: #FFAE28;
+    color: white;
+    font-size: 18px;
+    border-bottom: 4px solid white;
+    white-space: nowrap;
+}
+.n_tdow{
+    line-height: 47px;
+    background: #f4f4f4;
+    color: #406CE0;
+    font-size: 18px;
+    border: 2px solid white;
+    cursor: default;
+}
+.n_mon .n_ndow{
+    border-left: 2px solid white;
+}
+
+.n_tdow_pick{
+    background: #2758DD;
+    color: white;
+}
+
+.btn_save_ut{
+    background: #2758DD;
+    border-radius: 15px;
+    color: #fff;
+    padding: 5px 30px;
+    margin-bottom: 50px;
+}
+
+.btn_send_uc{
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 155px);
+}
+
+.btn_sent_uc_img{
+    display: none;
+}
+
+
+.ca_lam_saved ,.note_ntd{
+    display: none;
+}
+
+#ca_lam_saved ,#note_ntd{
+    width: 100%;
+}

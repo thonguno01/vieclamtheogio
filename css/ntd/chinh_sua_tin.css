@@ -1,0 +1,284 @@
+.content_infor_work {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgb(39 88 221 / 25%);
+    margin-bottom: 48px;
+    width: calc(100% - 307px);
+    padding-top: 38px;
+}
+
+.n_dtin_ntd_eror {
+    height: 30px;
+    color: #FF3C00;
+    font-size: 12px;
+}
+
+.info_work_title_text {
+    color: #2758DD;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #FFFF00 25%, #2758DD 75%) 1;
+}
+
+.n_red_star {
+    color: red;
+    font-size: inherit;
+}
+
+label.form-label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1D20;
+    padding-bottom: 10px;
+}
+
+#n_type_congviec,
+#n_level,
+#n_exp_work,
+#n_type_working,
+#n_sex,
+#n_hoc_van,
+#n_way_pay,
+#n_way_working,
+#n_city,
+#n_qh,
+#n_dcct {
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    padding-left: 17px;
+}
+
+
+/*Mức lương*/
+
+#salary_hidden {
+    display: none;
+    width: 40%;
+    align-items: center;
+    border: 1px solid #BBBBBC;
+    border-radius: 5px;
+}
+
+.salary_hidden {
+    display: flex;
+}
+
+.n_salary_level {
+    display: flex;
+}
+
+.input_salary {
+    width: 40%;
+}
+
+#ntd_salary_money_uocluong,
+#ntd_salary_money_uocluong2 {
+    border: none;
+}
+
+#n_salary_time {
+    width: 30%;
+}
+
+#n_salary_level {
+    width: 30%;
+}
+
+.price_hide {
+    display: none;
+}
+
+#salary_hidden.price_show {
+    display: flex;
+}
+
+
+/*Địa điểm công ty*/
+
+#location_permanent {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px;
+    height: 35px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 41px;
+}
+
+.n_location_choose {
+    display: flex;
+}
+
+.city_box {
+    width: 25%;
+    margin-right: 18px;
+}
+
+.qh_box {
+    width: 25%;
+    margin-right: 18px;
+}
+
+.dcct_box {
+    width: 35%;
+}
+
+.n_noi_lam_viec,
+.n_location_choose {
+    margin-left: 60px;
+}
+
+
+/*Lịch làm việc*/
+
+.calendar_work_title_text {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    color: #2758DD;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #FFFF00 25%, #2758DD 75%) 1;
+}
+
+.n_detail_ca_lam {
+    display: flex;
+}
+
+.n_dow {
+    flex: 1;
+    text-align: center;
+}
+
+.n_ndow {
+    line-height: 47px;
+    background: #FFAE28;
+    color: white;
+    font-size: 18px;
+    border-bottom: 4px solid white;
+    white-space: nowrap;
+}
+
+.n_tdow {
+    line-height: 47px;
+    background: #f4f4f4;
+    color: #1C1D20;
+    font-size: 18px;
+    border: 2px solid white;
+    cursor: default;
+}
+
+.n_mon .n_ndow {
+    border-left: 2px solid white;
+}
+
+.n_sun .n_ndow {
+    border-right: 2px solid white;
+}
+
+.disabled {
+    background-color: grey;
+    color: #C0C0C0;
+}
+
+.n_tdow_pick {
+    background: #2758DD;
+    color: white;
+}
+
+.n_enable {
+    background: #BBBBBC;
+    color: #666666;
+}
+
+.n_gio_lam1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.n_gio_lam {
+    display: flex;
+    justify-content: space-around;
+}
+
+.label_gio_lam {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.n_text_label {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px
+}
+
+.n_add_calam {
+    float: right;
+}
+
+.default_ca_lam {
+    padding-right: 215px;
+}
+
+.editor {
+    width: 100%;
+}
+
+.btn_up_post {
+    background: #2758DD;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #FFF;
+    border: none;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width:1100px) {
+    .content_infor_work {
+        width: calc(100% - 85px);
+    }
+    .default_ca_lam {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content_infor_work {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .n_location_choose {
+        display: grid;
+        margin-left: 20px;
+    }
+    .n_gio_lam1 {
+        display: grid;
+    }
+    .city_box,
+    .qh_box,
+    .dcct_box {
+        width: 90%;
+        margin-right: 18px;
+    }
+    .n_ca_lam {
+        margin-left: 15px;
+    }
+    .n_dtin_ntd_input.n_gio_lam label {
+        width: 62px;
+    }
+    .n_gio_lam {
+        margin-bottom: 9px;
+    }
+}

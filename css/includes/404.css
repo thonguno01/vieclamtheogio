@@ -1,0 +1,64 @@
+#ng_404{
+    width: 100%;
+}
+
+.note {
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.eror_box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(39, 88, 221, 0.3);
+    border-radius: 30px;
+    padding: 25px;
+    margin-top: 47px;
+    margin-bottom: 48px;
+    max-width: 798px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn_home{
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius:50px;
+    background-color: #2758DD;
+    border: none;
+    min-width: 245px;
+}
+
+.eror_title{
+    color:#2758DD; 
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 170%;
+}
+
+@media  screen and (max-width:1025px) {
+    .eror_box{
+        max-width: 698px;
+    }
+}
+
+@media  screen and (max-width:770px) {
+    .eror_box{
+        max-width: 648px;
+    }
+}
+@media  screen and (max-width:600px) {
+    .eror_box{
+        max-width: unset;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 15px 12px 27px 12px;
+    }
+    .note {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .eror_title{
+        font-size: 24px;
+    }
+}

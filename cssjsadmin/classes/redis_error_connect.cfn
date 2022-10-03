@@ -1,0 +1,160 @@
+08/06/2015 04:44:19 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:44:29 AM /admin/resetip.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\resetip.php(12): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:44:51 AM /admin/resetip.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\resetip.php(12): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:45:00 AM /admin/resetip.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\resetip.php(12): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:45:04 AM /admin/resetip.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\resetip.php(12): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:45:13 AM /admin/index.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 04:45:26 AM /admin/index.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:17:13 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:17:19 AM /admin/index.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:29:01 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:04 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:07 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:10 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:13 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:16 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:39:19 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 05:54:57 AM /admin/index.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 06:29:35 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 06:41:09 AM /admin/
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}
+08/06/2015 09:46:59 AM /admin/index.php
+192.168.1.155:exception 'RedisException' with message 'Redis server went away' in D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php:514
+Stack trace:
+#0 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(514): Redis->auth('wlreovswrewlrls')
+#1 D:\Work\Project\VatGia\hoakhoi.vn\classes\redis_store.php(274): redis_store->master_connect()
+#2 D:\Work\Project\VatGia\hoakhoi.vn\classes\denyconnect.php(149): redis_store->keys('deny_connect:21...')
+#3 D:\Work\Project\VatGia\hoakhoi.vn\admin\index.php(11): denyconnect->denyconnect()
+#4 {main}

@@ -1,0 +1,101 @@
+.old_post_work_title_text {
+    color: #2758DD;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #FFFF00 25%, #2758DD 75%) 1;
+}
+
+.content_old_post {
+    background: #FFFFFF;
+    padding-top: 38px;
+    width: calc(100% - 307px);
+}
+
+.th_old_post {
+    background: #2758DD;
+    border-right: 5px solid #fff;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: middle !important;
+    line-height: 16.75px;
+}
+
+.tbd_old_post {
+    background: #F4F4F4;
+    border-right: 5px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 15px;
+}
+
+.tbd_old_post_option {
+    border-top: none !important;
+    justify-content: space-between;
+}
+
+.btn_options {
+    width: 20px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.old_post_work_title {
+    position: relative;
+}
+
+.n_new_title {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Roboto-medium;
+    color: #2758DD;
+}
+
+thead th:nth-of-type(1) {
+    min-width: 25px;
+}
+
+button.btn_excel.excel_uv_apply {
+    background: #FFAE28;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 5px 30px;
+    position: absolute;
+    right: 0;
+    bottom: 41%;
+}
+
+@media screen and (max-width:768px) {
+    .old_post_work_table {
+        overflow-x: auto;
+    }
+    .table th:nth-child(2) {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .content_old_post {
+        width: calc(100% - 85px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content_old_post {
+        width: 100%;
+    }
+    button.btn_excel.excel_uv_apply {
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    button.btn_excel.excel_uv_apply img {
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+    }
+}

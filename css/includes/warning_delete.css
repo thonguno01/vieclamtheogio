@@ -1,0 +1,85 @@
+.warning_background{
+    width: 100%;
+    height: 100%; 
+    padding: 111px 0px;
+    background: #00000033;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow-y: auto;
+}
+.warning_background::-webkit-scrollbar{
+    width: 5px;
+}
+
+.warning_delete{
+    display: flex;
+    border-radius: 10px;
+    max-width: 493.33px;
+    margin: auto;
+    background: #FFFFFF; 
+    padding: 10px;
+   
+}
+
+.warning_delete_btn {
+    margin-left: 30px;
+    position: relative;
+}
+
+img.btn_x {
+    background: #fff;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    padding: 2px;
+}
+
+
+.button_close{
+    position: absolute;
+    top: -55px;
+    right: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warning_title{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2758DD;
+}   
+
+.warning_text{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1C1D20;
+}
+
+.btn_yes{
+    background: #2758DD;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.btn_no{
+    background: #FFFFFF;
+    border: 1px solid #2758DD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .warning_delete{
+        display: block;
+        text-align: center;
+    }
+
+    .button_close{
+        top: -235px;
+        right: 0;
+    }
+}

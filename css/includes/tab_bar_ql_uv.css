@@ -1,0 +1,188 @@
+/* css tab bar */
+.n_qlhs_tab_bar{
+    width: 100%;
+	height: 120px;
+	background: #2758DD;
+	box-shadow: 0px 7px 16px rgba(39, 88, 221, 0.25);
+	position: absolute;
+	z-index: 1;
+}
+.n_tab_bar_sub_content{
+    margin: 16px auto 0;
+	background: url(/images/n_qlhs_tabbar_bg.svg);
+	background-repeat: no-repeat;
+	background-position-y: 34px;
+	background-size: contain;
+	max-width: 650px;
+	display: flex;
+	justify-content: space-between;
+}
+.n_tab_bar_content{
+	width: calc(100% - 320px);
+	float: right;
+}
+.n_tab_bar_a .n_tab_bar_icon_at, .n_tab_bar_at .n_tab_bar_icon{
+	display: none;
+}
+.n_tab_bar_a, .n_tab_bar_at{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.n_tab_bar_div{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.n_tab_bar_div_ic{
+    flex: 1;
+	display: flex;
+	align-items: center;
+	padding: 0 11px;
+	background: #2758DD;
+}
+.n_tab_bar_a .n_tab_bar_div{
+    height: 62px; width: 62px;
+	border: 3px solid rgba(255, 255, 255, 0.7);
+	border-radius: 50%;
+	background: #2758DD;
+}
+.n_tab_bar_at .n_tab_bar_div{
+	height: 70px; width: 70px;
+	border-radius: 50%;
+	background-color: white;
+}
+.n_tab_bar_a .n_tab_bar_text{
+    font-weight: 500;
+	font-family: Roboto-Medium;
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+.n_tab_bar_at .n_tab_bar_text{
+    font-weight: 700;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
+/* css chung các form cập nhập thông tin*/
+.n_red_star{
+    color: red;
+    font-size: inherit;
+}
+.n_ttcb_content{
+    position: relative;
+    width: calc(100% - 320px);
+    /* flex: 1; */
+	padding-top: 150px;
+}
+.n_ttcb_sub_content{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.n_ttcb_eror{
+    height: 30px;
+	color: #FF3C00;
+    font-size: 12px;
+}
+.n_ttcb_label{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Roboto-Medium;
+    padding-bottom: 14px;
+}
+.n_ttcb_update{
+    width: 119px;
+    height: 41px;
+    background: #2758DD;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 64px;
+    margin-top: 19px;
+}
+.n_text_force{	
+	font-style: italic;
+	font-size: 12px;
+	color: #1C1D20;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* css select2 */
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple{
+    min-height: 41px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 41px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 100%;
+}
+@media only screen and (max-width: 1100px) and (min-width: 500px) {
+    .n_tab_bar_content{
+        width: calc(100% - 85px);
+    }
+    .n_ttcb_content{
+        width: calc(100% - 85px);
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .n_ttcb_update{
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+	.n_qlhs_tab_bar{
+		position: unset;
+		height: 95px;
+	}
+	.n_tab_bar_sub_content {
+		margin: 12px 15px 0;
+		background-position-y: 19px
+	}
+	.n_tab_bar_content {
+		width: unset;
+		float: unset;
+	}
+    .n_ttcb_content{
+        width: unset;
+		padding-top: 20px;
+    }
+	.n_tab_bar_at .n_tab_bar_div, .n_tab_bar_a .n_tab_bar_div{
+		height: 39px; width: 39px;
+	}
+	.n_tab_bar_icon{
+		height: 24px; width: 24px;
+	}
+	.n_tab_bar_icon_at{
+		height: 30px; width: 30px;
+	}
+	.n_tab_bar_at .n_tab_bar_text, .n_tab_bar_a .n_tab_bar_text{
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.n_tab_bar_a, .n_tab_bar_at{
+		width: min-content;
+	}
+    .n_ttcb_label{
+        font-size: 14px;
+        padding-bottom: 11px;
+    }
+    .n_ttcb_update{
+        font-size: 14px;
+        width: 109px;
+        height: 33px;
+    }
+	.n_text_force{
+		display: none;
+	}
+}

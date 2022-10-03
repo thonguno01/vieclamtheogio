@@ -1,0 +1,123 @@
+.content_uvut{
+    background: #FFFFFF;
+    width: calc(100% - 307px);
+    padding-top: 38px;
+} 
+.info_uvut_title_text {
+    color: #2758DD;  
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right ,#FFFF00 25% ,#2758DD 75%) 1;  
+}
+.head_btn {
+    display: flex;
+}
+.excel {
+    padding-right: 10px;
+}
+#n_uvut {
+    width: 100%;
+    height: 41px;
+    border-radius: 5px;
+    padding-left: 17px;
+}   
+.btn_excel{
+    background: #FFAE28;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 5px 30px;
+}
+.th_old_post{
+    background: #2758DD;
+    border-right: 5px solid #fff;
+    color: #fff;
+    white-space: nowrap;
+    vertical-align: middle !important;
+    line-height: 16.75px;
+}
+.tbd_old_post {
+    background: #F4F4F4;
+    border-right: 5px solid #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 15px;
+}
+.tag_cv{
+    background: rgba(39, 88, 221, 0.7);
+    border-radius: 10px;
+    color:#fff;
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 15px;
+    margin-bottom: 9px;
+}
+.tbd_old_post_option{
+    border-top:none !important;
+    justify-content: space-between;
+}
+.btn_options {
+    width: 20px;
+}
+.danh_sach_uvut_table {
+    overflow-x:auto;
+}
+.danh_sach_uvut_table::-webkit-scrollbar{
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+.tbd_tag_cv{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 215px;
+}
+.table thead th{
+    border-right: 5px solid white;
+    border-bottom: 2px solid white;
+}
+.table td, .table th{
+    border-right: 5px solid white;
+    border-bottom: 2px solid white;
+    border-top: none;
+}
+.tbd_name{
+    min-width: 200px;
+}
+.table td, .table th{
+    vertical-align: middle;
+}
+
+@media (min-width: 1520px){
+    .container {
+        max-width: calc(100% - 200px);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .info_uvut{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .content_uvut{
+        width: calc(100% - 85px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content_uvut{
+        margin-left: 40px;
+    }
+}
+.tbd_tag_cv .url_cv_uv{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    line-height: 14px;
+}

@@ -1,0 +1,163 @@
+.title_dangky {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 10px;
+    letter-spacing: 1.25px;
+    color: #2758DD;
+}
+
+.n_dky_ntd_eror {
+    height: 30px;
+    color: #FF3C00;
+    font-size: 12px;
+}
+
+.avatar_ntd {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%;
+    background: #c4c4c4; */
+    position: relative;
+    margin: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.preview_up img {
+    width: 100%;
+    height: 100%;
+}
+
+.preview_up {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upload_avatar {
+    background: #2758DD;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 70%;
+    top: 60%;
+}
+
+.pwd,
+.rep_pwd {
+    background: url(/images/n_icon_lock.svg) no-repeat;
+    background-position: 17px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.sm-3.py-3 {
+    position: relative;
+}
+
+.n_show_pwd {
+    position: absolute;
+    right: 25px;
+    top: 56px;
+    background: transparent;
+    border: none;
+}
+
+.n_text_force {
+    font-style: italic;
+    font-size: 12px;
+    color: #1C1D20;
+    position: absolute;
+    right: 0;
+}
+
+.n_red_star {
+    color: red;
+    font-size: inherit;
+}
+
+.submit_form_ntd {
+    border-radius: 20px;
+    width: 17%;
+    margin: auto 41%;
+}
+
+.n_dky_ntd_dn {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+span.select2-selection.select2-selection--single {
+    height: 47px;
+    padding-top: 9px;
+}
+
+input.form-control {
+    height: 47px;
+}
+
+label.form-label {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 41px;
+}
+
+@media screen and (max-width:1306px) {
+    .more_bottom.text-center.py-5 {
+        height: 7px;
+        margin-top: -27px;
+        width: 101%;
+    }
+    .img_bg_left {
+        display: none;
+    }
+    .title_dangky {
+        font-size: 24px;
+    }
+    .col-lg-7 {
+        flex: none;
+        max-width: none
+    }
+}
+
+@media screen and (max-width:600px) {
+    .submit_form_ntd {
+        width: 35%;
+        margin: auto 32%;
+    }
+    .img_bg_left {
+        display: none;
+    }
+    .title_dangky {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    label.form-label {
+        font-size: 14px;
+    }
+    .n_text_force {
+        display: none;
+    }
+    .py-5,
+    .col-sm-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .py-5 {
+        padding-bottom: 0;
+    }
+}

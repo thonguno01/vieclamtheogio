@@ -1,0 +1,59 @@
+#success_signup{
+    width: 100%;
+}
+
+
+.signup_success_box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.3);
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 36%;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn_home{
+    margin-top: 15px;
+    border-radius:50px;
+}
+
+.success_title{
+    color:#2758DD; 
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 170%;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:600px) {
+    .signup_success_box{
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .success_title{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width:768px) {
+    .signup_success_box{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+@media only  screen and (min-width:769px) {
+    .signup_success_box{
+        width: 38%;
+        margin-left: 30%;
+    }
+
+    .success_title{
+        font-size: 25px;
+    }
+}
+

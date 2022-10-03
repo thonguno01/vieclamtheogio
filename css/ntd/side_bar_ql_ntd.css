@@ -1,0 +1,198 @@
+/*Side_bar*/
+.n_side_bar_ntd ,.menu_qlc_ntd{
+    background: #0A2161;
+    border-radius: 0px 50px 0px 0px;
+	width: 307px;
+    position: sticky;
+	float: left;
+	z-index: 1;
+	top: 0;
+	min-height: 100vh;
+}
+.n_text_ql , .name_ntd ,.n_text_ql:hover{
+    color: #BBBBBC;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.n_side_bar_avatar{
+    width: 96px; height: 96px;
+	border-radius: 50%;
+	overflow: hidden;
+}	
+.name_ntd{
+    padding-top:10px;
+} 
+.header_menu_ntd{
+    padding-top: 18px;
+    border-bottom: 1px solid rgba(244, 244, 244, 0.5);
+    padding-bottom: 22px;
+}
+.body_menu_ntd{
+	padding-left: 18px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.n_side_bar_ql{
+	padding: 4px 11px 4px 8px;
+	width: fit-content;
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.n_side_bar_ql_at, .n_side_bar_ql:hover{
+	background: #FFFFFF;
+	border-radius: 16px;
+}
+.n_side_bar_ql_at .n_text_ql, .n_side_bar_ql:hover .n_text_ql{
+	color: #FFAE28;
+	font-family: Roboto-medium;
+	font-weight: 500;
+}
+.n_side_bar_ql_icon_at{
+	display: none;
+}
+.n_side_bar_ql_at .n_side_bar_ql_icon,
+.n_side_bar_ql:hover .n_side_bar_ql_icon,
+.n_side_bar_ql_at .n_drop_down_icon,
+.n_side_bar_ql:hover .n_drop_down_icon{
+	display: none;
+}
+.n_side_bar_ql_at .n_side_bar_ql_icon_at,
+.n_side_bar_ql:hover .n_side_bar_ql_icon_at,
+.n_side_bar_ql_at .n_drop_down_icon_at,
+.n_side_bar_ql:hover .n_drop_down_icon_at{
+	display: inline;
+}
+.n_side_bar_drop_down{
+	padding-left: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.n_text_drop_down,.n_text_drop_down:hover{
+	color: #BBBBBC;
+	font-size: 18px;
+	margin: 10px 0;
+}
+.n_side_bar_drop_at,.n_text_drop_down:hover{
+	color: white;
+	font-family: Roboto-medium;
+	font-weight: 500;
+}
+.hide{
+	display: none;
+}
+.n_drop_down{
+	transform: rotateX(180deg);
+}
+.n_qlhsut .n_text_ql{
+	padding-right: 16px;
+}
+.n_qltk_ntd .n_text_ql{
+	padding-right: 16px;
+}
+.n_side_bar_btn_mobi{
+	display: none;
+}
+.total_qlc{
+    display: flex;
+	position: relative;
+}
+.n_ntd_point{
+	font-size: 18px;
+	line-height: 16px;
+	color: #2758DD;
+	background: #FFFFFF;
+	border-radius: 16px;
+	padding: 10px 35px; 
+	width: fit-content; 
+	margin: auto; margin-top: 8px;
+}
+.n_ntd_point_exp{
+	color: white;
+	font-size: 18px;
+	line-height: 16px; margin-top: 16px;
+}
+@media only screen and (max-width: 1100px) and (min-width: 600px) {
+    .n_side_bar_avatar{
+		width: 53px; height: 53px;
+	}
+	.n_text,.n_text_ql,.n_text_drop_down,
+    .hide_drop_icon,.n_side_bar_ql:hover .hide_drop_icon,
+	.n_side_bar_ql_at .n_drop_down_icon_at{
+		display: none;
+	}
+	.n_side_bar_ntd,.menu_qlc_ntd {
+		width: 85px;
+		/* position: absolute; */
+		border-radius: unset;
+		left: 0;
+	}
+	.hide_drop_icon, .n_ntd_point, .n_ntd_point_exp, .name_ntd{
+		display: none;
+	}
+	.n_side_bar_ntd:hover .n_side_bar_avatar{
+		width: 96px; height: 96px;
+	}
+	.n_side_bar_ntd:hover{
+		width: 320px;
+		border-radius: 0px 50px 0px 0px;
+	}
+	.n_side_bar_ntd:hover .n_text,
+	.n_side_bar_ntd:hover .n_text_ql,
+	.n_side_bar_ntd:hover .n_text_drop_down,
+	/* .n_side_bar_ntd:hover .n_drop_down_icon, */
+	.n_side_bar_ntd:hover .n_side_bar_ql:hover .n_drop_down_icon_at,
+	.n_side_bar_ntd:hover .n_side_bar_ql_at .n_drop_down_icon_at,
+	.n_side_bar_ntd:hover .n_ntd_point, .n_side_bar_ntd:hover .n_ntd_point_exp,
+	.n_side_bar_ntd:hover .name_ntd{
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 600px)   {
+    .n_side_bar_ntd,.menu_qlc_ntd{
+		width: 100%;
+		border-radius: 0;
+		position: relative;
+		min-height: unset;
+	}
+	.menu_mobile{
+		display: none;
+	}
+    .body_menu_ntd{
+		padding-bottom: 33px;
+	}
+	.n_side_bar_top{
+		padding-bottom: 11px;
+		padding-top: 11px;
+	}
+    .n_side_bar_btn_mobi{
+		display: flex;
+		width: 42px; height: 42px;
+		background: white;
+		border-radius: 50%;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		bottom: -21px;
+		right: 16px;
+		transform: rotate(0deg);
+		transition: transform 0.5s ease;
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+	}
+	.n_side_bar_ntd {
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+	}
+	.n_close{
+		transform: rotate(45deg);
+		transition: transform 0.5s ease;
+	}
+}
+
+@media screen and (max-width:600px) {
+    .total_qlc {
+        flex-direction: column;
+    }
+}

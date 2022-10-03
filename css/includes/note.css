@@ -1,0 +1,75 @@
+.note_background{
+    width: 100%;
+    height: auto;   
+    padding: 111px 0px;
+    background: #00000033;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow-y: auto;
+}
+.note_background::-webkit-scrollbar{
+    width: 5px;
+}
+
+.note_box{
+    display: flex;
+    border-radius: 10px;
+    max-width: 766px;
+    /* max-height: 363px;; */
+    margin: auto;
+    background: url("/images/BG25.png");
+    background-color: #fff;
+    padding: 30px;
+}
+
+.note_uv {
+    margin-left: 30px;
+    position: relative;
+} 
+
+.note_title{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #2758DD;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.note_text{
+    background: #2758DD;
+    box-shadow: 0px 4px 16px rgba(39, 88, 221, 0.25);
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+img.x_close_note {
+    background: #fff;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    padding: 2px;
+}
+
+
+.button_close{
+    position: absolute;
+    top: -80px;
+    right: -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:600px) {
+    .note_box{
+        display: block;
+        text-align: center;
+    }
+
+    .button_close {
+        top: -310px;
+    }
+}

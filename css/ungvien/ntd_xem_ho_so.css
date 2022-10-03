@@ -1,0 +1,109 @@
+.n_vlut_container{
+    width: calc(100% - 320px);
+}
+.n_vlut_sub_container{
+    width: calc(100% - 240px);
+    margin: auto;
+    padding-top: 26px;
+    padding-bottom: 48px;
+}
+table{
+    width: 100%;
+}
+th{
+    height: 51px;
+    background: #2758DD;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+th:nth-of-type(2){
+    width: 57.5%;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    background: #F4F4F4;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 5px;
+    height: 52px;
+}
+td:nth-of-type(1){
+    width: 70px;
+}
+td:nth-of-type(2){
+    color: #2758DD;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+}
+.n_vlut_ca{
+    background: #5279E4;
+    padding: 4px 5px;
+    font-weight: 500;
+    font-size: 13px;
+    color: white;
+    font-family: Roboto-Medium;
+    line-height: 15px;
+    margin: auto;
+    max-width: 288px;
+}
+.n_vlut_table_content{
+    margin-bottom: 30px;
+}
+.n_vlut_table_content::-webkit-scrollbar{
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+.n_company_name{
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+@media only screen and (max-width: 1520px) {
+    .n_vlut_sub_container{
+        width: calc(100% - 100px);
+    }
+    .n_vlut_ca{
+        max-width: 156px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .n_vlut_container{
+        width: calc(100% - 85px);
+    }
+    .n_vlut_sub_container{
+        width: calc(100% - 68px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .n_vlut_sub_container{
+        width: calc(100% - 48px);
+    }
+    th,td{
+        font-size: 14px;
+    }
+    table{
+        min-width: max-content;
+    }
+    .n_vlut_table_content{
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .n_vlut_sub_container{
+        width: calc(100% - 32px);
+    }
+    .n_vlut_container{
+        width: 100%;
+    }
+}

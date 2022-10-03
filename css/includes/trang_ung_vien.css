@@ -1,0 +1,473 @@
+.uv_page {
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding-top: 70px;
+}
+
+.tieude {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 149%;
+    /* identical to box height, or 45px */
+    letter-spacing: 1.25px;
+    color: #1C1D20;
+}
+
+.trangchu {
+    color: #2758DD;
+}
+
+.pagecolor {
+    height: 70px;
+    background: #F4F4F4;
+}
+
+.box_info {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px hsla(224, 73%, 51%, 0.25);
+    border-radius: 4px;
+    padding: 25px;
+    margin: 15px;
+    position: relative;
+    height: 90%;
+}
+
+.box_info:hover {
+    box-shadow: 0px 0px 6px rgba(255, 174, 40, 0.5);
+}
+
+.infor {
+    width: 90%;
+}
+
+.avatar_uv {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    height: 100%;
+}
+
+.avatar_cage {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.row_box_info {
+    display: flex;
+}
+
+.avatar_box {
+    margin-right: 20px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    font-size: 18px;
+    color: #2758DD;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.job {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1C1D20;
+}
+
+.n_uv_icon {
+    padding-right: 11px;
+}
+
+.address {
+    font-size: 14px;
+    color: #666666;
+}
+
+.address .n_uv_icon {
+    padding-right: 5px;
+    vertical-align: text-bottom;
+}
+
+.job_des {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+
+.cv_nhanlam {
+    color: #2758DD;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.btn_type_work {
+    background: #2758DD;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding: 4px;
+    white-space: nowrap;
+}
+
+.btn_type_work:hover {
+    background: #FFAE28;
+    color: #FFFFFF;
+}
+
+#salary {
+    font-weight: normal;
+    color: #9F9F9F;
+    font-size: 13px;
+}
+
+.bottombg,
+.count_page {
+    justify-content: center
+}
+
+.bottombg {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.count_page {
+    display: inline-block;
+    padding-left: 40.5%;
+}
+
+.menu_job {
+    padding-right: 0px;
+    padding-left: 0;
+    padding-bottom: 18px;
+}
+
+.menu_job>* {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-column-gap: 5px;
+}
+
+.p-3 {
+    width: 240px;
+    white-space: nowrap;
+    margin-left: -30px;
+}
+
+.count_page a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.count_page a.active {
+    background-color: #2758DD;
+    color: #2758DD;
+}
+
+.count_page a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 1px solid #2758DD;
+}
+
+.p-3 .n_filter_uv_label {
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+.title_new_uv {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* border-bottom: 1px dashed #2758DD; */
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: white;
+    width: fit-content;
+}
+
+.container_infor,
+.box_uv {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.box_uv {
+    position: relative;
+}
+
+.select {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.des_title img {
+    margin-right: 10px;
+}
+
+.Group1000003744 {
+    position: absolute;
+    right: 12px;
+    top: 27px;
+    border: none;
+    background: none;
+}
+
+.button_save_uv {
+    position: absolute;
+    right: 12px;
+    top: 27px;
+    border: none;
+    background: none;
+}
+
+.Group1000005125 {
+    position: absolute;
+    right: 12px;
+    top: 65px;
+    border: none;
+    background: none;
+}
+
+.bottombg {
+    position: relative;
+}
+
+.btn_bottom {
+    position: absolute;
+    top: 76%;
+    left: 7%;
+    color: #fff;
+    font-size: 18px;
+    background: #FFAE28;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    border: none;
+}
+
+.btn_bottom:hover {
+    color: #fff;
+    background: #2758DD;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.n_tuv_title {
+    background: url(/images/n_dash.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.seen.d-flex.w-100.justify-content-end {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.seen.d-flex.w-100.justify-content-end span {
+    border-radius: 6px;
+    width: 69px;
+    text-align: center;
+}
+
+.alert-hover {
+    display: none;
+    position: absolute;
+    background: wheat;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    right: 45px;
+    top: 45px;
+}
+
+.chat-hover {
+    display: none;
+    position: absolute;
+    background: wheat;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    right: 45px;
+    top: 85px;
+}
+
+.chat-hover p,
+.alert-hover p {
+    font-weight: normal;
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1155px) {
+    /* 1024px */
+    .count_page {
+        padding-left: 39%;
+    }
+    .p-3 {
+        width: 100%;
+        /* white-space: nowrap; */
+        margin: 0;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .Group1000003744,
+    .Group1000005125 {
+        right: 6px;
+    }
+    .row {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* 768px */
+    .box_info {
+        margin: 10px;
+    }
+    .menu_job {
+        width: 100%;
+    }
+    .row {
+        margin-right: 0;
+    }
+    .job_des,
+    .p-3 h1 {
+        font-size: 13px;
+    }
+    .job {
+        font-size: 14px;
+    }
+    .btn_bottom {
+        font-size: 14px;
+    }
+    .btn_type_work {
+        font-size: 12px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .box_info {
+        padding: 25px
+    }
+    .tieude {
+        font-size: 20px;
+    }
+    .n_uv_icon {
+        padding-right: 7px;
+    }
+}
+
+@media only screen and (max-width :600px) {
+    .pagecolor {
+        height: 150px;
+        background: #F4F4F4;
+    }
+}
+
+@media only screen and (max-width :480px) {
+    .tieude {
+        font-size: 18px;
+    }
+    .menu_job {
+        display: none;
+    }
+    .modal-content {
+        height: 790px;
+    }
+    label.btn.btn-light {
+        float: left;
+        width: 47%;
+        margin: 0px 6px 3px 0px;
+    }
+    .box_modal_body {
+        padding-bottom: 20px;
+        float: left;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+    .btn-group.btn-group-toggle {
+        display: inline;
+        padding-bottom: 5px solid #D8D8D8;
+    }
+    .row {
+        margin-right: 0;
+    }
+    .btn_bottom {
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+    .bottombg {
+        padding-top: 32px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /*375px*/
+    .count_page {
+        display: inline-block;
+        padding-left: 21%;
+    }
+    .menu_job {
+        display: none;
+    }
+    .modal-content {
+        height: 790px;
+    }
+    label.btn.btn-light {
+        float: left;
+        width: 47%;
+        margin: 0px 6px 3px 0px;
+    }
+    .box_modal_body {
+        padding-bottom: 20px;
+        float: left;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+    .btn-group.btn-group-toggle {
+        display: inline;
+        padding-bottom: 5px solid #D8D8D8;
+    }
+    .Group1000003744,
+    .Group1000005125 {
+        left: 89.82%;
+    }
+    .row {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width :320px) {
+    .row {
+        margin-right: 0;
+    }
+    .Group1000003744,
+    .Group1000005125 {
+        left: 87.82%;
+    }
+    .work-online {
+        white-space: normal;
+        display: flex;
+    }
+}

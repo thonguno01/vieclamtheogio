@@ -1,0 +1,89 @@
+.log_out_background{
+    width: 100%;
+    height: 100%;  
+    padding: 111px 0px;
+    background: #00000033;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow-y: auto;
+}
+.log_out_background::-webkit-scrollbar{
+    width: 5px;
+}
+
+.log_out_delete{
+    display: flex;
+    border-radius: 10px;
+    max-width: 674px;
+    /* max-height: 215px; */
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px;
+   
+}
+
+
+.log_out_delete_btn {
+    margin-left: 30px;
+    position: relative;
+}
+
+img.btn_x {
+    background: #fff;
+    border-radius: 50px;
+    transform: rotate(45deg);
+    padding: 2px;
+}
+
+
+.button_close_log_out{
+    position: absolute;
+    top: -55px;
+    right: -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log_out_title{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2758DD;
+}   
+
+.log_out_text{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1C1D20;
+}
+
+.btn_yes{
+    background: #2758DD;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 6px 35px;
+}
+
+.btn_no_log_out{
+    background: #FFFFFF;
+    border: 1px solid #2758DD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 6px 35px;
+}
+
+@media screen and (max-width:600px) {
+    .log_out_delete{
+        display: block;
+        text-align: center;
+    }
+
+    .button_close_log_out{
+        top: -260px;
+        right: 0;
+    }
+}

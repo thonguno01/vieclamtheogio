@@ -1,0 +1,572 @@
+.pagecolor {
+    height: 70px;
+    background: #F4F4F4;
+}
+
+.search_form {
+    justify-content: center;
+    display: flex;
+    margin-top: -30px;
+}
+
+
+/*box title*/
+
+.detail_ntd_title {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgb(39 88 221 / 25%);
+    border-radius: 20px;
+    max-width: 930px;
+    padding: 12px;
+    margin-top: -76px;
+    position: relative;
+    margin: auto;
+    margin-top: -7%;
+    width: 100%;
+}
+
+.detail_ntd_img {
+    width: 131px;
+    height: 131px;
+    overflow: hidden;
+    border: 1px solid #2758DD;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.detail_ntd {
+    margin-top: 100px;
+    padding-top: 0 !important;
+}
+
+.img_ntd {
+    width: 100%;
+    height: 100%;
+}
+
+.address_ntd {
+    display: flex;
+    align-items: flex-start;
+}
+
+img.address_ntd_img {
+    padding-top: 28px;
+    padding-bottom: 40px;
+    padding-right: 5px;
+}
+
+.address_ntd_line {
+    padding-top: 23px;
+    padding-right: 3px;
+}
+
+#ntd_name {
+    font-size: 30px;
+    line-height: 149%;
+    color: #2758DD;
+    font-weight: bold;
+}
+
+.number_work {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 16px;
+    color: #2758DD;
+}
+
+.work_ntd {
+    border: 2px solid #2758DD;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.header_info_ntd {
+    margin-left: 21px;
+    flex: 1;
+}
+
+.address_ntd_text {
+    font-size: 15px;
+    line-height: 149%;
+    font-weight: bold;
+    color: #1C1D20;
+}
+
+.address_ntd_span {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 149%;
+    color: #666666;
+}
+
+.message_text {
+    background: rgba(196, 196, 196, 0.6);
+    box-shadow: 0px 0px 6px rgba(39, 88, 221, 0.4);
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.message_text img {
+    padding-right: 3px;
+}
+
+
+/*Giới thiệu chung*/
+
+.introduce_ntd {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.introduce_ntd_box1 {
+    max-width: 730px;
+    width: 100%;
+    box-shadow: 0px 0px 6px rgba(39, 88, 221, 0.25);
+}
+
+.introduce_ntd_box2 {
+    max-width: 285px;
+    box-shadow: 0px 0px 6px rgba(39, 88, 221, 0.25);
+}
+
+.introduce_ntd_box1_title {
+    background: #2758DD;
+    color: #FFF;
+    text-align: center;
+    padding: 9px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.introduce_ntd_content {
+    font-size: 16px;
+    line-height: 135%;
+    padding: 35px;
+    font-weight: 400;
+}
+
+.ntd_content_info {
+    text-align: left;
+}
+
+.content_info_ntd {
+    font-weight: bold;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.span_tt {
+    color: #2758DD;
+    font-size: 14px;
+    line-height: 149%;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.btn_ttct {
+    background: #FFAE28;
+    border-radius: 10px;
+    padding: 1px 40px;
+    color: #FFFFFF;
+    margin-top: -40px;
+    margin-left: 13px;
+}
+
+.vi_tri_tuyen_dung_title {
+    background: radial-gradient(39.5% 43391.29% at 50% 50.01%, #2758DD 0%, #2758DD 28.47%, rgba(39, 88, 221, 0) 100%);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 149%;
+    color: #FFFFFF;
+}
+
+.n_one_job {
+    min-height: 109px;
+    box-shadow: 0px 0px 6px rgba(39, 88, 221, 0.25);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.n_one_job:hover {
+    box-shadow: 0px 0px 6px rgb(255 174 40 / 50%);
+}
+
+.n_one_job_left {
+    flex: 1;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.n_one_job_top {
+    display: flex;
+    align-items: center;
+}
+
+.n_one_job_bottom {
+    display: none;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+    grid-column-gap: 8px;
+}
+
+.n_job_logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.n_job_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.n_job_detail {
+    flex: 1;
+}
+
+.n_job_in4_name {
+    width: calc(100% - 30px);
+}
+
+.n_text_in4_name {
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #2758DD;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.n_job_in4s {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-row-gap: 14px;
+}
+
+.n_job_in4 {
+    display: flex;
+    align-items: center;
+}
+
+.n_text_in4_o {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    word-break: break-word;
+    line-height: 16px;
+}
+
+.n_text_in4_spt {
+    color: red;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+}
+
+.n_job_in4 img {
+    width: 18px;
+    height: 18px;
+    margin: 0 4px 0 0;
+}
+
+.n_job_func {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    margin-right: -4px;
+    align-items: flex-end;
+}
+
+.n_job_like,
+.n_job_chat,
+.n_job_liked {
+    width: 33px;
+    height: 28px;
+    border-radius: 15px 0px 0px 15px;
+    text-align: center;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.n_job_like img,
+.n_job_chat img {
+    display: flex;
+    margin: auto;
+}
+
+.n_job_like_after,
+.n_job_chat_after,
+.n_job_liked_after {
+    width: 4px;
+    height: 2px;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.n_job_like,
+.n_job_like_after {
+    background: rgba(39, 188, 221, 1);
+}
+
+.n_job_chat {
+    background: rgba(39, 134, 221, 1);
+}
+
+.n_job_chat_after {
+    background: #2758DD;
+}
+
+.n_job_liked,
+.n_job_liked_after {
+    background: #FF3C00;
+}
+
+.n_text_in4_lhlv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 27px;
+    width: 65px;
+    background: #2758DD;
+    border-radius: 0px 4px 0px 30px;
+}
+
+.n_text_in4_lhlv_text {
+    color: white;
+    font-weight: 500;
+    font-family: Roboto-Medium;
+    font-size: 12px;
+    text-align: center;
+}
+
+.list_img {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#background_ntd {
+    width: 1097.38px;
+    height: 335px;
+}
+
+
+/* .list_img_ntd {
+   
+} */
+
+.hinh_anh_ntd {
+    width: 305px;
+    height: 201px;
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='6' stroke-dasharray='215%2c305' stroke-dashoffset='75' stroke-linecap='square'/%3e%3c/svg%3e"); */
+}
+
+.img_phuc_loi_chinh_sach {
+    border-radius: 50px;
+    background: #FD9E00;
+    padding: 25px;
+}
+
+.nl_cs {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgb(39 88 221 / 25%);
+    padding: 30px;
+    width: 30%;
+}
+
+.phuc_loi_chinh_sach {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nl_cs_text {
+    font-size: 16px;
+    line-height: 149%;
+    text-align: center;
+    color: #1C1D20;
+    font-weight: bold;
+}
+
+.more_option_2 {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.message_text {
+    color: #2758DD !important;
+}
+
+.n_detail_ntd_left {
+    display: flex;
+    flex: 1;
+}
+
+.address_ntd_mobile {
+    display: none;
+}
+
+.detail_ntd_info {
+    margin-top: auto;
+}
+
+.nl_cs_txt {
+    text-align: justify;
+}
+
+.head_detail_img {
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .detail_ntd_title {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: unset;
+    }
+    .detail_ntd_img {
+        margin-left: 22px;
+    }
+    .introduce_ntd {
+        grid-column-gap: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header_info_ntd {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .detail_ntd_title {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .detail_ntd_img {
+        width: 87px;
+        height: 87px;
+        margin-left: 0px;
+        margin-right: 6px;
+    }
+    .message_text {
+        font-size: 12px;
+    }
+    .header_info_ntd {
+        margin-left: 0px;
+        flex: 1;
+    }
+    .detail_ntd {
+        margin-top: 85px;
+    }
+    #ntd_name {
+        font-size: 24px;
+        width: 110%;
+    }
+    .phuc_loi_chinh_sach {
+        display: block;
+    }
+    .nl_cs {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .detail_ntd {
+        margin-top: 60px;
+    }
+    .introduce_ntd {
+        display: block;
+        /* margin-top: 300px; */
+    }
+    .introduce_ntd_box2 {
+        max-width: 511px;
+        text-align: center;
+    }
+    .n_job_in4s {
+        grid-template-columns: auto;
+    }
+    .introduce_ntd_box1 {
+        margin-bottom: 15px;
+    }
+    .n_tim_kiem {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #ntd_name {
+        font-size: 16px;
+        width: calc(100% - 60px);
+        direction: rtl;
+        text-indent: -60px;
+    }
+    .detail_ntd_info {
+        position: absolute;
+        right: 15px;
+        top: 37px;
+    }
+    .detail_ntd_img {
+        width: 55px;
+        height: 55px;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
+    .number_work {
+        font-size: 24px;
+    }
+    .more_option {
+        display: none;
+    }
+    .more_option_2 {
+        display: block;
+    }
+    .work_ntd {
+        width: 60px;
+        padding-top: 10px;
+        height: 60px;
+    }
+    .work_viec_lam {
+        font-size: 11px;
+    }
+    .address_ntd_mobile {
+        display: flex;
+        align-items: flex-start;
+    }
+    .address_ntd {
+        display: none;
+    }
+    .detail_ntd_title {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .detail_ntd_title {
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    .content_info_ntd {
+        margin-left: 25px;
+    }
+    .list_img {
+        display: block;
+    }
+}
